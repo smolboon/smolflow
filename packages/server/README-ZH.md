@@ -1,40 +1,40 @@
 <!-- markdownlint-disable MD030 -->
 
-# Flowise
+# Smolflow
 
 [English](./README.md) | 中文
 
 <h3>以可视化方式构建 AI Agents</h3>
 
-![Flowise](https://github.com/FlowiseAI/Flowise/blob/main/images/flowise_agentflow.gif?raw=true)
+![Smolflow](https://github.com/SmolFlowAI/Smolflow/blob/main/images/smolflow_agentflow.gif?raw=true)
 
 ## ⚡ 快速入门
 
-1. 安装 Flowise
+1. 安装 Smolflow
     ```bash
-    npm install -g flowise
+    npm install -g smolflow
     ```
-2. 启动 Flowise
+2. 启动 Smolflow
 
     ```bash
-    npx flowise start
+    npx smolflow start
     ```
 
 3. 打开[http://localhost:3000](http://localhost:3000)
 
 ## 🌱 环境变量
 
-Flowise 支持不同的环境变量来配置您的实例。您可以在`packages/server`文件夹中的`.env`文件中指定以下变量。阅读[更多](https://docs.flowiseai.com/environment-variables)
+Smolflow 支持不同的环境变量来配置您的实例。您可以在`packages/server`文件夹中的`.env`文件中指定以下变量。阅读[更多](https://docs.smolflow.com/environment-variables)
 
 您还可以在使用`npx`时指定环境变量。例如：
 
 ```
-npx flowise start --PORT=3000 --DEBUG=true
+npx smolflow start --PORT=3000 --DEBUG=true
 ```
 
 ## 📖 文档
 
-[Flowise 文档](https://docs.flowiseai.com/)
+[Smolflow 文档](https://docs.smolflow.com/)
 
 ## 🌐 自托管
 
@@ -79,12 +79,12 @@ npx flowise start --PORT=3000 --DEBUG=true
 
 ## 🙋 支持
 
-在[讨论区](https://github.com/FlowiseAI/Flowise/discussions)中随时提出任何问题、报告问题和请求新功能。
+在[讨论区](https://github.com/SmolFlowAI/Smolflow/discussions)中随时提出任何问题、报告问题和请求新功能。
 
 ## 🙌 贡献
 
-请参阅[贡献指南](https://github.com/FlowiseAI/Flowise/blob/master/CONTRIBUTING.md)。如果您有任何问题或问题，请在[Discord](https://discord.gg/jbaHfsRVBW)上与我们联系。
+请参阅[贡献指南](https://github.com/SmolFlowAI/Smolflow/blob/master/CONTRIBUTING.md)。如果您有任何问题或问题，请在[Discord](https://discord.gg/jbaHfsRVBW)上与我们联系。
 
 ## 📄 许可证
 
-本仓库中的源代码在[Apache License Version 2.0 许可证](https://github.com/FlowiseAI/Flowise/blob/master/LICENSE.md)下提供。
+本仓库中的源代码在[Apache License Version 2.0 许可证](https://github.com/SmolFlowAI/Smolflow/blob/master/LICENSE.md)下提供。

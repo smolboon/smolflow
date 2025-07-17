@@ -1,35 +1,35 @@
 <!-- markdownlint-disable MD030 -->
 
-# Flowise
+# Smolflow
 
 English | [中文](./README-ZH.md)
 
 <h3>Build AI Agents, Visually</h3>
 
-![Flowise](https://github.com/FlowiseAI/Flowise/blob/main/images/flowise_agentflow.gif?raw=true)
+![Smolflow](https://github.com/SmolFlowAI/Smolflow/blob/main/images/smolflow_agentflow.gif?raw=true)
 
 ## ⚡Quick Start
 
-1. Install Flowise
+1. Install Smolflow
     ```bash
-    npm install -g flowise
+    npm install -g smolflow
     ```
-2. Start Flowise
+2. Start Smolflow
 
     ```bash
-    npx flowise start
+    npx smolflow start
     ```
 
 3. Open [http://localhost:3000](http://localhost:3000)
 
 ## 🌱 Env Variables
 
-Flowise support different environment variables to configure your instance. You can specify the following variables in the `.env` file inside `packages/server` folder. Read [more](https://github.com/FlowiseAI/Flowise/blob/main/CONTRIBUTING.md#-env-variables)
+Smolflow support different environment variables to configure your instance. You can specify the following variables in the `.env` file inside `packages/server` folder. Read [more](https://github.com/SmolFlowAI/Smolflow/blob/main/CONTRIBUTING.md#-env-variables)
 
 You can also specify the env variables when using `npx`. For example:
 
 ```
-npx flowise start --PORT=3000 --DEBUG=true
+npx smolflow start --PORT=3000 --DEBUG=true
 ```
 
 ## 📖 Tests
@@ -37,7 +37,7 @@ npx flowise start --PORT=3000 --DEBUG=true
 We use [Cypress](https://github.com/cypress-io) for our e2e testing. If you want to run the test suite in dev mode please follow this guide:
 
 ```sh
-cd Flowise/packages/server
+cd Smolflow/packages/server
 pnpm install
 ./node_modules/.bin/cypress install
 pnpm build
@@ -47,14 +47,14 @@ pnpm run e2e
 
 ## 📖 Documentation
 
-[Flowise Docs](https://docs.flowiseai.com/)
+[Smolflow Docs](https://docs.smolflow.com/)
 
 ## 🌐 Self Host
 
--   [AWS](https://docs.flowiseai.com/deployment/aws)
--   [Azure](https://docs.flowiseai.com/deployment/azure)
--   [Digital Ocean](https://docs.flowiseai.com/deployment/digital-ocean)
--   [GCP](https://docs.flowiseai.com/deployment/gcp)
+-   [AWS](https://docs.smolflow.com/deployment/aws)
+-   [Azure](https://docs.smolflow.com/deployment/azure)
+-   [Digital Ocean](https://docs.smolflow.com/deployment/digital-ocean)
+-   [GCP](https://docs.smolflow.com/deployment/gcp)
 -   <details>
       <summary>Others</summary>
 
@@ -84,18 +84,18 @@ pnpm run e2e
 
       </details>
 
-## ☁️ Flowise Cloud
+## ☁️ Smolflow Cloud
 
-[Get Started with Flowise Cloud](https://flowiseai.com/)
+[Get Started with Smolflow Cloud](https://smolflow.com/)
 
 ## 🙋 Support
 
-Feel free to ask any questions, raise problems, and request new features in [discussion](https://github.com/FlowiseAI/Flowise/discussions)
+Feel free to ask any questions, raise problems, and request new features in [discussion](https://github.com/SmolFlowAI/Smolflow/discussions)
 
 ## 🙌 Contributing
 
-See [contributing guide](https://github.com/FlowiseAI/Flowise/blob/master/CONTRIBUTING.md). Reach out to us at [Discord](https://discord.gg/jbaHfsRVBW) if you have any questions or issues.
+See [contributing guide](https://github.com/SmolFlowAI/Smolflow/blob/master/CONTRIBUTING.md). Reach out to us at [Discord](https://discord.gg/jbaHfsRVBW) if you have any questions or issues.
 
 ## 📄 License
 
-Source code in this repository is made available under the [Apache License Version 2.0](https://github.com/FlowiseAI/Flowise/blob/master/LICENSE.md).
+Source code in this repository is made available under the [Apache License Version 2.0](https://github.com/SmolFlowAI/Smolflow/blob/master/LICENSE.md).

@@ -1,11 +1,11 @@
 {
-    "name": "flowise",
+    "name": "smolflow",
     "version": "3.0.3",
     "private": true,
-    "homepage": "https://flowiseai.com",
+    "homepage": "https://smolflow.com",
     "workspaces": [
         "packages/*",
-        "flowise",
+        "smolflow",
         "ui",
         "components",
         "api-documentation"
